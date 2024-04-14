@@ -8,6 +8,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 11px 6px 23px 5px rgba(0,0,0,0.75);
+  box-shadow: 11px 6px 23px 5px rgba(0,0,0,0.75);
+  box-shadow: 11px 6px 23px 5px rgba(0,0,0,0.75);
+
 
 }
 
@@ -19,5 +23,11 @@
 
 .h1 {
   text-align: center;
+}
+.button:hover{
+  background-color: skyblue;
+  transition: .3s ease all;
+  transform: translateY(-3px);
+
 }
 
